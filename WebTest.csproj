@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	
+	<PackageId>WebTestNuGetPackage</PackageId>
+  <Version>1.0.0</Version>
+  <Authors>Daniel</Authors>
+  <Company>Minmax</Company>
+  <Description>This is my custom NuGet package</Description>
+   <IsPackable>true</IsPackable> 
+	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.7.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.SqlServer.Server" Version="1.0.0" />
+    <PackageReference Include="NETCore.Encrypt" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NPOI" Version="2.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Minmax">
+      <HintPath>..\Minmax\bin\Debug\net8.0\Minmax.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

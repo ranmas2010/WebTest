@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WebTestNuGetPackage</id>
+    <version>1.0.0</version>
+    <authors>Daniel</authors>
+    <description>This is my custom NuGet package</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="MailKit" version="4.7.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Identity.EntityFrameworkCore" version="8.0.7" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.SqlClient" version="5.2.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="8.0.7" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="8.0.7" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.SqlServer.Server" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NETCore.Encrypt" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="NPOI" version="2.7.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net8.0/appsettings.Development.json" buildAction="Content" />
+      <files include="any/net8.0/appsettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\NET_project\Web\WebTest\bin\Release\net8.0\WebTest.runtimeconfig.json" target="lib\net8.0\WebTest.runtimeconfig.json" />
+    <file src="D:\NET_project\Web\WebTest\bin\Release\net8.0\WebTest.dll" target="lib\net8.0\WebTest.dll" />
+    <file src="D:\NET_project\Web\WebTest\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="D:\NET_project\Web\WebTest\appsettings.Development.json" target="contentFiles\any\net8.0\appsettings.Development.json" />
+    <file src="D:\NET_project\Web\WebTest\appsettings.json" target="content\appsettings.json" />
+    <file src="D:\NET_project\Web\WebTest\appsettings.json" target="contentFiles\any\net8.0\appsettings.json" />
+    <file src="D:\NET_project\Web\WebTest\obj\Release\net8.0\scopedcss\projectbundle\WebTestNuGetPackage.bundle.scp.css" target="staticwebassets\WebTestNuGetPackage.bundle.scp.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\css\site.css" target="staticwebassets\css\site.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\favicon.ico" target="staticwebassets\favicon.ico" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\js\site.js" target="staticwebassets\js\site.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\LICENSE" target="staticwebassets\lib\bootstrap\LICENSE" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\js\bootstrap.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" target="staticwebassets\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" target="staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" target="staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\jquery-validation\LICENSE.md" target="staticwebassets\lib\jquery-validation\LICENSE.md" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\jquery-validation\dist\additional-methods.js" target="staticwebassets\lib\jquery-validation\dist\additional-methods.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" target="staticwebassets\lib\jquery-validation\dist\additional-methods.min.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\jquery-validation\dist\jquery.validate.js" target="staticwebassets\lib\jquery-validation\dist\jquery.validate.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" target="staticwebassets\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\jquery\LICENSE.txt" target="staticwebassets\lib\jquery\LICENSE.txt" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\jquery\dist\jquery.js" target="staticwebassets\lib\jquery\dist\jquery.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\jquery\dist\jquery.min.js" target="staticwebassets\lib\jquery\dist\jquery.min.js" />
+    <file src="D:\NET_project\Web\WebTest\wwwroot\lib\jquery\dist\jquery.min.map" target="staticwebassets\lib\jquery\dist\jquery.min.map" />
+    <file src="D:\NET_project\Web\WebTest\obj\Release\net8.0\staticwebassets\msbuild.WebTestNuGetPackage.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="D:\NET_project\Web\WebTest\obj\Release\net8.0\staticwebassets\msbuild.build.WebTestNuGetPackage.props" target="build\WebTestNuGetPackage.props" />
+    <file src="D:\NET_project\Web\WebTest\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebTestNuGetPackage.props" target="buildMultiTargeting\WebTestNuGetPackage.props" />
+    <file src="D:\NET_project\Web\WebTest\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.WebTestNuGetPackage.props" target="buildTransitive\WebTestNuGetPackage.props" />
+  </files>
+</package>
